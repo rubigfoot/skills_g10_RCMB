@@ -12,7 +12,7 @@ async def root():
     num1=100
     num2=3
     respuesta= num1**num2
-    return{"message": f"Esta es la respuesta {respuesta} holaaaaa"}
+    return{"message": f"holaaaaa MONCHI"}
 
 
 @app.get("/saludog10")
