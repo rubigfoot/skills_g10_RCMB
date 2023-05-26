@@ -18,7 +18,7 @@ async def root():
 @app.get("/saludog10")
 def saludar():
     """
-    cuando llamo a este endpoint se hace un proceso interno
+    cuando llamo a este endpoint se hace un proceso interno PARTE 2
     """
     print('Hola soy una funcion')
     return{"message":"holis g10"}
@@ -26,7 +26,7 @@ def saludar():
 @app.post("/predict/dtc", status_code= status.HTTP_200_OK)
 async def predict_flower():#data:IrisSchema):
     """
-    Esta funcion nos predecirá si es una setosa, virginica o versicolor
+    Esta funcion nos predecirá si es una setosa, virginica o versicolor hola hola hola
     """
     ModPredict= pickle.load(open("Modelos/model_dtc.pkl",'rb'))
     #prediccion=model_dtc.predict(data)

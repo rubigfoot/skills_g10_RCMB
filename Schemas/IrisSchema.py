@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 from typing import List
+import pickle
 
 class IrisSchema(BaseModel):
 
